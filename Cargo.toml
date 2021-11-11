@@ -1,0 +1,14 @@
+[package]
+name = "practice15_asynchronous"
+version = "0.1.0"
+authors = ["chatblanc-ciel <73688885+chatblanc-ciel@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-recursion = "0.3.2"
+rand = "0.8.3"
+rayon = "1.5.0"
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1.5"
